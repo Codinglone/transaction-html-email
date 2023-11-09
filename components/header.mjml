@@ -1,0 +1,12 @@
+<mj-section background-color="#454545" padding="0">
+    <mj-group>
+        <mj-column vertical-align="middle">
+            <mj-image href="https://kohls.com" src="images/kohl-logo.jpg" width="151px" align="left" />
+        </mj-column>
+        <mj-column vertical-align="middle">
+            <mj-text align="right" color="#ffffff">
+                <a href="#" class="kohl_links">My Account</a> | <a href="#" class="kohl_links">Customer Service</a>
+            </mj-text>
+        </mj-column>
+    </mj-group>
+</mj-section>

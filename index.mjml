@@ -1,0 +1,787 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            .footer_icon-padding {
+                padding-right: 16px;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .kohl_links {
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            .header_links {
+                color: #454545;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding-right: 20px;
+            }
+            .header_links-unique {
+                color: red;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding-right: 20px;
+            }
+            .receipt_date-spacing {
+                padding-left: 6px;
+            }
+            .receipt_item-padding {
+                padding-right: 5px;
+            }
+            .receipt_number-padding {
+                padding-right: 12px;
+            }
+            .receipt_price-padding {
+                padding-right: 6px;
+                font-weight: bold;
+            }
+            .bold_link {
+                font-weight: 600;
+                text-transform: lowercase;
+            }
+            .footer_links {
+                color: #454545;
+                font-size: 14px;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 15px;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#ffffff">
+        <mj-raw>
+            <!-- Header -->
+        </mj-raw>
+        <mj-include path="components/header.mjml" />
+
+        <mj-raw>
+            <!-- Header Links -->
+        </mj-raw>
+        <mj-section padding="10px 0">
+            <mj-column>
+                <mj-text align="center">
+                    <a href="#" class="header_links">For The Home</a>
+                    <a href="#" class="header_links">Women</a>
+                    <a href="#" class="header_links">Men</a>
+                    <a href="#" class="header_links">Kids</a>
+                    <a href="#" class="header_links">Baby</a>
+                    <a href="#" class="header_links-unique">Clearance</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Thank You -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-image href="#" src="images/thank-you.jpg" width="260px" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Discount and App Image -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-image href="#" src="images/discount.jpg" />
+            </mj-column>
+            <mj-column>
+                <mj-image href="#" src="images/kohl-app.jpg" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Receipt -->
+        </mj-raw>
+        <mj-wrapper border="1px solid #454545">
+            <mj-raw>
+                <!-- Receipt Heading -->
+            </mj-raw>
+            <mj-section padding="50px 0 0">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545">
+                        Mad West
+                    </mj-text>
+                    <mj-text align="center" padding="8px 0" color="#454545">
+                        1234 W Univ Drive
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545">
+                        Mad, NY 55555
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Receipt Date -->
+            </mj-raw>
+            <mj-section padding="25px 0 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545">
+                            07-30-2030 <span class="receipt_date-spacing">06:56 PM</span>
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="center" padding="0" color="#454545">
+                            223/49/0050
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            7777XXX
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Receipt ID -->
+            </mj-raw>
+            <mj-section padding="8px 0 25px">
+                <mj-column>
+                    <mj-text align="left" padding="0 0 0 25px" color="#454545">
+                        ID# 999-9269-7881-4397-9776-5999-4999
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- First Item -->
+            </mj-raw>
+            <mj-section padding="8px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            <span class="receipt_item-padding">PE</span> <span class="receipt_item-padding">CZ</span> <span class="receipt_item-padding">Prong</span> Round
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            <span class="receipt_number-padding">013742281750</span> *
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <span class="receipt_price-padding">9.80</span> T1
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- First Item Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Item Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            14.00
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- First Item Sale Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Sale Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            9.80
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Second Item -->
+            </mj-raw>
+            <mj-section padding="8px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            Jewelry
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            <span class="receipt_number-padding">642447441376</span> *
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <span class="receipt_price-padding">15.40</span> T1
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Second Item Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Item Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            22.00
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Second Item Sale Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Sale Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            15.40
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Third Item -->
+            </mj-raw>
+            <mj-section padding="8px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            <span class="receipt_item-padding">TBO</span> <span class="receipt_item-padding">Bubble</span> 20
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            <span class="receipt_number-padding">040773085484</span> *
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <span class="receipt_price-padding">11.99</span> T1
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Third Item Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Item Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            23.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Third Item Sale Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Sale Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            11.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fourth Item -->
+            </mj-raw>
+            <mj-section padding="8px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            <span class="receipt_item-padding">Big</span> <span class="receipt_item-padding">One</span> <span class="receipt_item-padding">Foam</span> <span class="receipt_item-padding">Bath</span> Rug
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            <span class="receipt_number-padding">040773098804</span> *
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <span class="receipt_price-padding">19.99</span> T1
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fourth Item Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Item Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            39.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fourth Item Sale Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Sale Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            19.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fifth Item -->
+            </mj-raw>
+            <mj-section padding="8px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            <span class="receipt_item-padding">BO</span> <span class="receipt_item-padding">Ombre</span> <span class="receipt_item-padding">Foam</span> <span class="receipt_item-padding">Bath</span> Rug
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            <span class="receipt_number-padding">040773098743</span> *
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <span class="receipt_price-padding">19.99</span> T1
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fifth Item Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Item Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            39.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Fifth Item Sale Price -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Sale Price
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0" color="#454545">
+                            19.99
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Subtotal -->
+            </mj-raw>
+            <mj-section padding="16px 0 1px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Subtotal
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            77.17
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Tax -->
+            </mj-raw>
+            <mj-section padding="1px 0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            T1 = 77.17 @ 5.500%
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Tax
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545">
+                            4.24
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Total -->
+            </mj-raw>
+            <mj-section padding="1px 0 16px">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 0 0 25px" color="#454545" font-weight="bold" text-transform="uppercase">
+                            Total
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="right" padding="0 25px 0 0" color="#454545" font-weight="bold">
+                            $81.41
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Credit Card Charged -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            Kohl's <span class="receipt_number-padding">CHG</span> xxxxxxxxxx1234
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="center" padding="0 25px 0 0" color="#454545">
+                            81.41
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Approved Charge -->
+            </mj-raw>
+            <mj-section padding="0">
+                <mj-group>
+                    <mj-column>
+                        <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                            <span class="receipt_number-padding">Approved</span> 001234
+                        </mj-text>
+                    </mj-column>
+                    <mj-column>
+                        <mj-text align="center" padding="0 25px 0 0" color="#454545">
+                            <!-- blank column -->
+                        </mj-text>
+                    </mj-column>
+                </mj-group>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Items Amount -->
+            </mj-raw>
+            <mj-section padding="16px 0">
+                <mj-column>
+                    <mj-text align="left" padding="0 0 0 25px" color="#454545" text-transform="uppercase">
+                        <span class="receipt_number-padding">Items:</span> 5
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Total Amount Saved -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase" font-weight="bold" font-size="16px">
+                        <span class="receipt_number-padding">Total Saved:</span> $62.80
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Members Announcement -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase" font-weight="bold">
+                        John, thanks for being
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" text-transform="uppercase" font-weight="bold">
+                        A Kohl's charge MVC
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase" font-weight="bold">
+                        and yes2you rewards member!
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Kohl's Cash Rewards -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        $10.00 Kohl's Cash Activated
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0 0" color="#454545" text-transform="uppercase">
+                        XXXXXXXXXX1234
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" text-transform="uppercase">
+                        $10 Earned for every
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        $50 Purchased
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Kohl's Cash Rewards Rules and Regulations -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        Kohl's cash must be presented to be
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0 0" color="#454545" text-transform="uppercase">
+                        redeemed. Returns of items in this
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" text-transform="uppercase">
+                        transaction will reduce the value of
+                    </mj-text>
+                    <mj-text align="center" padding="0 0 2px" color="#454545" text-transform="uppercase">
+                        Kohl's cash and/or the refund amount.
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        See details printed on Kohl's cash.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Barcode -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-image src="images/barcode.png" width="350px" align="center" />
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Terms and Conditions -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        Your purchase is subject to the
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" text-transform="uppercase">
+                        terms/conditions found on legal notices
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        at <a href="#">Kohls.com</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Thank You Announcement -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" font-weight="bold">
+                        Tell us what you think
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" font-weight="bold">
+                        about today's store visit!
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Feedback Link -->
+            </mj-raw>
+            <mj-section padding="0 0 16px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        Go To <a href="#" class="bold_link">www.kohlsfeedback.com</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+
+            <mj-raw>
+                <!-- Receipt Footer -->
+            </mj-raw>
+            <mj-section padding="0 0 50px">
+                <mj-column>
+                    <mj-text align="center" padding="0" color="#454545">
+                        Mad West
+                    </mj-text>
+                    <mj-text align="center" padding="2px 0" color="#454545" text-transform="uppercase" font-weight="bold">
+                        Access Code 1234-5678-9101-1121
+                    </mj-text>
+                    <mj-text align="center" padding="0" color="#454545" text-transform="uppercase">
+                        Respond within 48 hrs to participate
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+
+        <mj-raw>
+            <!-- Return Item Image -->
+        </mj-raw>
+        <mj-section>
+            <mj-column>
+                <mj-image href="#" src="images/return-items.jpg" />
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Footer -->
+        </mj-raw>
+        <mj-include path="components/footer.mjml" />
+
+        <mj-raw>
+            <!-- Divider -->
+        </mj-raw>
+        <mj-include path="components/divider.mjml" />
+
+        <mj-raw>
+            <!-- Disclaimer and Address -->
+        </mj-raw>
+        <mj-section padding="0">
+            <mj-column>
+                <mj-text font-size="10px" line-height="1.5">
+                    <a href="#">Unsubscribe</a> here. This mailbox is unattended, so please do not reply to this message. For other inquiries, visit <a href="#">cs.kohls.com</a>, or write us at Kohl’s Department Stores, Attention: Customer Service, N12 W1234 Wood Lane, Momomomo Falls, WI 12345.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>

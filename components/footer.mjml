@@ -1,0 +1,68 @@
+<mj-wrapper background-color="#F0F0F0">
+    <mj-raw>
+        <!-- Footer Links -->
+    </mj-raw>
+    <mj-section padding="16px 0">
+        <mj-column>
+            <mj-text align="center" padding="0">
+                <a href="#" class="footer_links">Kohl's Card</a> | 
+                <a href="#" class="footer_links">Customer Service</a> | 
+                <a href="#" class="footer_links">Find A Store</a> | 
+                <a href="#" class="footer_links">Kohl's Coupons</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Footer Icons -->
+    </mj-raw>
+    <mj-section padding="0 0 16px">
+        <mj-column>
+            <mj-text align="center">
+                <a href="#"><img src="images/facebook.jpg" alt="facebook" class="footer_icon-padding" /></a>
+                <a href="#"><img src="images/twitter.jpg" alt="twitter" class="footer_icon-padding" /></a>
+                <a href="#"><img src="images/pinterest.jpg" alt="pinterest" class="footer_icon-padding" /></a>
+                <a href="#"><img src="images/instagram.jpg" alt="instagram" class="footer_icon-padding" /></a>
+                <a href="#"><img src="images/youtube.jpg" alt="youtube"></a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Apple and Google Button -->
+    </mj-raw>
+    <mj-section padding="0 0 16px">
+        <mj-column>
+            <mj-text align="center">
+                <a href="#"><img src="images/apple-button.jpg" alt="apple" class="footer_icon-padding" /></a>
+                <a href="#"><img src="images/google-button.jpg" alt="google-play" /></a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Footer Trademark -->
+    </mj-raw>
+    <mj-section padding="0 0 16px">
+        <mj-column>
+            <mj-text align="center" padding="0" color="#454545">
+                Android, Google Play and the Google Play logo are trademarks of Google Inc.
+            </mj-text>
+            <mj-text align="center" padding="0" color="#454545">
+                App Store is a service mark of Apple Inc.
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-raw>
+        <!-- Security and Return Policy Links -->
+    </mj-raw>
+    <mj-section padding="0 0 16px">
+        <mj-column>
+            <mj-text align="center" padding="0">
+                <a href="#" class="footer_links">Security & Privacy Policy</a> | 
+                <a href="#" class="footer_links">Hassle-Free Returns Policy</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-wrapper>
